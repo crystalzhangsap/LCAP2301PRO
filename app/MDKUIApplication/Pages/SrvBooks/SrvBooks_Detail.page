@@ -1,0 +1,65 @@
+{
+	"Caption": "SrvBooks Detail",
+	"DesignTimeTarget": {
+		"Service": "/MDKUIApplication/Services/service1.service",
+		"EntitySet": "SrvBooks",
+		"QueryOptions": ""
+	},
+	"ActionBar": {
+		"Items": []
+	},
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"Tags": [],
+						"DetailImage": "",
+						"HeadlineText": "{title}",
+						"Subhead": "{stock}",
+						"BodyText": "",
+						"Footnote": "{currency}",
+						"Description": "{price}",
+						"StatusText": "",
+						"StatusImage": "",
+						"SubstatusImage": "",
+						"SubstatusText": ""
+					},
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "title",
+							"Value": "{title}"
+						},
+						{
+							"KeyName": "stock",
+							"Value": "{stock}"
+						},
+						{
+							"KeyName": "price",
+							"Value": "{price}"
+						},
+						{
+							"KeyName": "currency",
+							"Value": "{currency}"
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"DataSubscriptions": [],
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable"
+		}
+	],
+	"_Type": "Page",
+	"_Name": "SrvBooks_Detail",
+	"PrefersLargeCaption": true
+}

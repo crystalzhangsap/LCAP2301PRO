@@ -1,0 +1,69 @@
+{
+	"Credential": "cf",
+	"CF": {
+		"Target": "",
+		"Organization": "",
+		"Space": "",
+		"Deploy": {
+			"Description": "My SAP application",
+			"WebClient": {
+				"Runtime": "preview",
+				"URL": ""
+			},
+			"Destination": [
+				{
+					"CF": "e2ebjtest0220-app-srv",
+					"MDK": "../service/e2ebjtest0220/",
+					"URL": ""
+				}
+			]
+		}
+	},
+	"MobileService": {
+		"Type": "standard",
+		"AdminAPI": "",
+		"AppId": "lcap.e2ebjtest0220.MDKUIApplication",
+		"Destination": []
+	},
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": ""
+	},
+	"LCAP": {
+		"FullName": "e2ebjtest0220_MDKUIApplication",
+		"Service": [
+			{
+				"mdk": "MDKUIApplication/Services/service1.service",
+				"cap": {
+					"name": "e2ebjtest0220Service",
+					"sourcePath": "srv/service.cds",
+					"path": "/service/e2ebjtest0220/",
+					"entryPath": "/service/e2ebjtest0220",
+					"destination": "e2ebjtest0220-app-srv",
+					"value": "0"
+				},
+				"links": [
+					{
+						"entity": "e2ebjtest0220Service.SrvAuthors",
+						"files": [
+							"MDKUIApplication/Pages/SrvAuthors/SrvAuthors_Detail.page",
+							"MDKUIApplication/Pages/SrvAuthors/SrvAuthors_List.page"
+						]
+					},
+					{
+						"entity": "e2ebjtest0220Service.SrvBooks",
+						"files": [
+							"MDKUIApplication/Pages/SrvBooks/SrvBooks_Detail.page",
+							"MDKUIApplication/Pages/SrvBooks/SrvBooks_List.page"
+						]
+					}
+				]
+			}
+		],
+		"sourceTemplate": {
+			"id": "html5moduletemplates.basicSAPUI5ApplicationProjectModule",
+			"version": "1.40.12"
+		}
+	}
+}

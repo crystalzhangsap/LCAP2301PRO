@@ -1,0 +1,5 @@
+{
+  "ProjectOverviewURL": "https://qadeploytest.launchpad.cfapps.eu10.hana.ondemand.com/lcape2ebjtest0220.e2ebjtest0220Launchpad-1.0.0",
+  "DeployedUTCTime": "2023-02-20T07:58:53.399Z",
+  "ApplicationLogURL": "https://logs.cf.eu10.hana.ondemand.com/app/dashboards#/view/Overview?_g=(filters:!((query:(match_phrase:(component_name:e2ebjtest0220-srv)))))"
+}

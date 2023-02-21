@@ -1,0 +1,9 @@
+{
+    "DestinationName": "../service/e2ebjtest0220/",
+    "OfflineEnabled": false,
+    "LanguageURLParam": "",
+    "OnlineOptions": {},
+    "PathSuffix": "",
+    "SourceType": "Cloud",
+    "ServiceUrl":""
+}

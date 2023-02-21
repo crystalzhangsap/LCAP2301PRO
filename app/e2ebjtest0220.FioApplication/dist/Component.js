@@ -1,0 +1,1 @@
+sap.ui.define(["sap/fe/core/AppComponent"],function(e){"use strict";return e.extend("e2ebjtest0220.FioApplication.Component",{metadata:{manifest:"json"}})});
